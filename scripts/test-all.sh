@@ -2,7 +2,7 @@
 
 set -e
 
-PRE_BUILD_PACKAGES_ORDERED=('common' 'contract-wrappers' 'encryption' 'signing' 'hashing' 'data-models')
+PRE_BUILD_PACKAGES_ORDERED=('common' 'contract-wrappers' 'encryption' 'signing' 'hashing' 'data-models' 'client' 'csp')
 PACKAGES=$(find ./packages -type d -maxdepth 1 -mindepth 1)
 
 ###############################################################################
